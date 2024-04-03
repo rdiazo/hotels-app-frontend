@@ -1,0 +1,27 @@
+.filtercities {
+    width: 100%;
+    max-width: 220px;
+    border-radius: 0.8em;
+    overflow: hidden;
+    box-shadow: 0.1em 0.1em 1em #0005;
+    position: fixed;
+    top: 28.4em;
+    background-color: white;
+    left: 1.85em;
+    text-align: center;
+    padding: 0.1em;
+}
+.filtercities__title{
+    color: red;
+    margin-top: 0.4em;
+    text-shadow: 2px 2px 4px black;
+}
+.filtercities__li {
+    cursor: pointer;
+    padding: 0.15em;
+    transition: transform 100ms ease,
+    box-shadow 100ms ease;
+}
+.filtercities__li:hover {
+    transform: scale(1.05);
+}

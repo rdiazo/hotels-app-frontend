@@ -1,0 +1,18 @@
+.reservation {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin: 12vh auto;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 20%;
+    min-width: 500px;
+    height: 310px;
+    background-color: gray;
+    row-gap:10px;
+}
+
+.reservation__title {
+    color: red;
+}

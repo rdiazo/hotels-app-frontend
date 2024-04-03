@@ -1,0 +1,30 @@
+.reviews {
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 48px;
+}
+
+.reviews__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews__info {
+  margin-top: 4vh;
+  margin-left: 2vw;
+}
+
+.content__info1 {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 2vh;
+  max-width: 90%;
+  height: 6vh;
+  border-radius: 10px;
+  padding: 5px 15px;
+  color: greenyellow;
+  background-color: gray;
+}
+

@@ -1,0 +1,54 @@
+.register__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  margin: 16vh auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 20%;
+  min-width: 300px;
+  height: 550px;
+  background-color: gray;
+}
+
+.register__title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: greenyellow;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.register__label__firstName,
+.register__label__lastName,
+.register__label__email,
+.register__label__password,
+.register__label__gender {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 250px;
+  color: greenyellow;
+}
+
+.register__inputs {
+  height: 35px;
+}
+
+.register__button {
+  margin-top: 20px;
+  width: 250px;
+  height: 44px;
+  color: gray;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.register__button:hover {
+  background-color: white;
+  color: gray;
+  transform: scale(1.1); 
+}
+
+

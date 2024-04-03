@@ -1,0 +1,39 @@
+
+.otherHotel__title {
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  
+  .otherHotel__container__card {
+    margin-left: 31vw;
+    margin-right: -10vw;
+    margin-bottom: 5vh;
+  }
+  
+  @media (max-width: 1200px) {
+    .otherHotel__container__card {
+      margin-left: 8vw;
+      margin-right: 6vw;
+      
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .otherHotel__container__card {
+      margin-left: 8vw;
+      margin-right: 8vw;
+      
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .otherHotel__container__card {
+      margin-left: 0.5vw;
+      margin-right: -1vw;
+      overflow-x: none;
+      
+    }
+  
+  }
+  
+  
