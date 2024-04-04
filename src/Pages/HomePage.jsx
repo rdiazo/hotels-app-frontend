@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { getHotelsThunk } from "../store/states/hotels.state"
 import { useDispatch, useSelector } from "react-redux"
 import ListHotels from "../components/HomePage/ListHotels"
-import '../components/HomePage/styles/HomePage.css'
+//import '../components/HomePage/styles/HomePage.css'
 import FilterName from "../components/HomePage/FilterName.css"
 import FilterPrice from "../components/HomePage/FilterPrice"
 import FilterCities from "../components/HomePage/FilterCities"
